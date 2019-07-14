@@ -34,7 +34,7 @@ PostListContainer.defaultProps = {
 };
 
 const mapStateToProps = state => ({
-  posts: postSelectors.selectorPosts(state),
+  posts: postSelectors.selectorFormattedPosts(state),
 });
 
 export default connect(mapStateToProps, {

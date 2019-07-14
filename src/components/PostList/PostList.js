@@ -8,7 +8,7 @@ const PostList = ({ posts }) => {
         posts.map((post) => {
           return (
             <li key={post.id}>
-              {post.title}
+              {post.formattedTitle}
             </li>
           );
         })
@@ -20,7 +20,7 @@ const PostList = ({ posts }) => {
 PostList.propTypes = {
   posts: PropTypes.arrayOf(PropTypes.shape({
     id: PropTypes.number,
-    title: PropTypes.string,
+    formattedTitle: PropTypes.string,
   })),
 };
 
