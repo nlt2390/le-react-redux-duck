@@ -1,13 +1,10 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import * as styles from './styles';
-
 const PostList = ({ posts }) => {
   return (
-    <div css={styles.container}>
-      <ul>
-        {
+    <ul>
+      {
           posts.map((post) => {
             return (
               <li key={post.id}>
@@ -16,8 +13,7 @@ const PostList = ({ posts }) => {
             );
           })
         }
-      </ul>
-    </div>
+    </ul>
   );
 };
 

@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
 
@@ -11,25 +11,18 @@ import {
 } from '../../state/post';
 
 
-class PostListContainer extends React.Component {
-  componentDidMount() {
-    const {
-      fetchPosts,
-    } = this.props;
+const PostListContainer = (props) => {
+  const {
+    fetchPosts,
+    posts,
+  } = props;
 
-    fetchPosts();
-  }
+  useEffect(() => fetchPosts(), []);
 
-  render() {
-    const {
-      posts,
-    } = this.props;
-
-    return (
-      <PostList posts={posts} />
-    );
-  }
-}
+  return (
+    <PostList posts={posts} />
+  );
+};
 
 PostListContainer.propTypes = {
   posts: PropTypes.arrayOf(PropTypes.shape({})),
