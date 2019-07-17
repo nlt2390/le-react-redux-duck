@@ -40,6 +40,7 @@ class LoginPagePage extends React.Component {
             type="text"
             name="name"
             onChange={this.onChange}
+            css={styles.inputUser}
           />
         </label>
         <div>

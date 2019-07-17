@@ -5,4 +5,8 @@ export default {
     margin: 100px auto;
     width: 200px;
   `,
+  inputUser: css`
+    margin: 20px 0;
+    height: 20px;
+  `,
 };
