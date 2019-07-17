@@ -2,7 +2,7 @@
 &nbsp;&nbsp;&nbsp;&nbsp;![Page 2](https://raw.githubusercontent.com/nlt2390/le-react-redux-duck/master/readme/img_page2.jpg)
 
 A web boilerplate with basic setups:<br>
-**React** | **React Router** | **Redux** | **Redux Thunk** | **Reselect** | **React Emotion** | **Duck** | **Jest** | **Enzyme**
+**[React@16.8.6](https://github.com/facebook/react)** | **[React Router](https://github.com/ReactTraining/react-router)** | **[Redux](https://github.com/reduxjs/redux)** | **[Redux Thunk](https://github.com/reduxjs/redux-thunk)** | **[Reselect](https://github.com/reduxjs/reselect)** | **[React Emotion](https://github.com/emotion-js/emotion)** | **[Duck](https://github.com/erikras/ducks-modular-redux)** | **[Jest](https://github.com/facebook/jest)** | **[Enzyme](https://github.com/airbnb/enzyme)**
 
 ## What are included ?
 #### React/Redux File Architecture: Ducks
