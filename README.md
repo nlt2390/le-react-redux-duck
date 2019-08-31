@@ -12,7 +12,7 @@ A web boilerplate with basic setups:<br>
 ![CSS Modules](https://raw.githubusercontent.com/nlt2390/le-react-redux-duck/master/readme/img_styles.jpg)
 ![CSS Modules 2](https://raw.githubusercontent.com/nlt2390/le-react-redux-duck/master/readme/img_styles2.jpg)
 
-#### Redux-Thunk for fetching APIs
+#### Redux-Thunk for dispatching Redux actions
 ![Redux Thunk](https://raw.githubusercontent.com/nlt2390/le-react-redux-duck/master/readme/img_thunk.jpg)
 
 #### Routes for authenticated/non-authenticated users with different layouts
